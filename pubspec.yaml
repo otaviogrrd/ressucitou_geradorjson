@@ -1,0 +1,9 @@
+name: ressucitou_geradorjson
+description: Ressucitou - Gerador JSON
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0-44.1.beta <3.0.0'
