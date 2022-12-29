@@ -1,4 +1,3 @@
+Abrir o terminal na raiz do projeto e rodar:
 
-## Getting Started
-
-Executar generateJson.dart 
+  dart run lib/generateJson.dart
