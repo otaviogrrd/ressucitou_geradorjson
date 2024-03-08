@@ -82,6 +82,7 @@ Future<void> main() async {
   listCantos.add(Canto(73, "EIS-ME AQUI QUE VENHO EM BREVE", "EIS ME AQUI QUE VENHO EM BREVE", "X", 1, "65", "68", true, false, false, false, false, false, false, false, false, false, false, false, false, ""));
   listCantos.add(Canto(74, "ELÍ, ELÍ, LAMÁ SABATANI", "ELI ELI LAMA SABATANI", "X", 1, "66", "69", false, false, false, false, true, false, false, false, false, false, false, false, false, ""));
   listCantos.add(Canto(75, "EM MEIO A MULTIDÃO", "EM MEIO A MULTIDAO", "X", 1, "67", "70", false, false, true, false, false, false, false, false, false, false, false, true, false, ""));
+  listCantos.add(Canto(230,"EM TUA LUZ, SENHOR, VEMOS A LUZ","EM TUA LUZ SENHOR VEMOS A LUZ","X",1,"","",false,false,false,false,false,false,false,false,false,false,false,false,false,"") );
   listCantos.add(Canto(76, "EM UMA NOITE ESCURA", "EM UMA NOITE ESCURA", "", 1, "236", "71", false, false, false, false, false, false, false, false, false, false, true, false, false, ""));
   listCantos.add(Canto(77, "ENCONTRARAM-SE DOIS ANJOS", "ENCONTRARAM SE DOIS ANJOS", "X", 1, "68", "72", false, false, false, false, false, false, false, false, true, true, false, false, false, ""));
   listCantos.add(Canto(78, "ESCONDE-ME NO OCULTO DE TUA TENDA", "ESCONDE ME NO OCULTO DE TUA TENDA", "X", 1, "69", "73", false, true, false, false, false, false, false, false, false, false, false, false, false, ""));
@@ -234,7 +235,6 @@ Future<void> main() async {
   listCantos.add(Canto(224, "VÓS SOIS A LUZ DO MUNDO", "VOS SOIS A LUZ DO MUNDO", "X", 1, "163", "170", false, false, false, false, false, false, false, false, false, false, false, false, false, ""));
   listCantos.add(Canto(225, "VOS TOMAREI DENTRE AS NAÇÕES", "VOS TOMAREI DENTRE AS NACOES", "X", 1, "164", "171", false, false, true, false, false, false, false, false, false, false, false, false, false, ""));
   listCantos.add(Canto(226, "ZAQUEU", "ZAQUEU", "", 1, "165", "172", false, true, true, false, true, false, false, false, false, false, false, true, false, ""));
-  listCantos.add(Canto(230,"EM TUA LUZ, SENHOR, VEMOS A LUZ","EM TUA LUZ SENHOR VEMOS A LUZ","X",1,"","113A",false,false,false,false,false,false,false,false,false,false,false,false,false,"") );
 
   for (var element in listCantos) {
     String path = "html/" + element.html + ".HTML";
