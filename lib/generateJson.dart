@@ -234,6 +234,7 @@ Future<void> main() async {
   listCantos.add(Canto(224, "VÓS SOIS A LUZ DO MUNDO", "VOS SOIS A LUZ DO MUNDO", "X", 1, "163", "170", false, false, false, false, false, false, false, false, false, false, false, false, false, ""));
   listCantos.add(Canto(225, "VOS TOMAREI DENTRE AS NAÇÕES", "VOS TOMAREI DENTRE AS NACOES", "X", 1, "164", "171", false, false, true, false, false, false, false, false, false, false, false, false, false, ""));
   listCantos.add(Canto(226, "ZAQUEU", "ZAQUEU", "", 1, "165", "172", false, true, true, false, true, false, false, false, false, false, false, true, false, ""));
+  listCantos.add(Canto(230,"EM TUA LUZ, SENHOR, VEMOS A LUZ","EM TUA LUZ SENHOR VEMOS A LUZ","X",1,"","113A",false,false,false,false,false,false,false,false,false,false,false,false,false,"") );
 
   for (var element in listCantos) {
     String path = "html/" + element.html + ".HTML";
